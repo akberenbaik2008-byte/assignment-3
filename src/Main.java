@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("===== HASH TABLE TEST =====");
+        System.out.println("hash table test");
 
         MyHashTable<MyTestingClass, Student> table = new MyHashTable<>(100);
 
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("HashTable size: " + table.size());
 
         System.out.println();
-        System.out.println("===== SMALL HASH TABLE TEST =====");
+        System.out.println("small hash table test");
 
         MyHashTable<MyTestingClass, Student> smallTable = new MyHashTable<>();
 
@@ -51,7 +51,7 @@ public class Main {
         System.out.println("Small table size: " + smallTable.size());
 
         System.out.println();
-        System.out.println("===== BST TEST =====");
+        System.out.println("bst test");
 
         BST<Integer, Student> tree = new BST<>();
 
